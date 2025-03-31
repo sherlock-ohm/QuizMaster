@@ -2,6 +2,8 @@
 
 Quizmaster is a self-hosted web application that allows users to create, manage, and take quizzes. It's lightweight and doesn't rely on a traditional database, instead storing quizzes in JSON format for easy export and import.
 
+![Screenshot](images/Screenshot.png)
+
 ## Features
 
 - **Quiz Creation and Management**
@@ -52,7 +54,7 @@ Quizmaster is a self-hosted web application that allows users to create, manage,
 1. Clone the repository or download the source code:
 
 ```bash
-git clone https://github.com/sherlock-ohm/quizmaster.git
+git clone https://github.com/yourusername/quizmaster.git
 cd quizmaster
 ```
 
@@ -83,7 +85,6 @@ By default, the server runs on port 3000. You can change this using the `-p` or 
 
 ```bash
 # Using the start script
-chmod +x start.sh
 ./start.sh -p 8080
 
 # Or directly with npm
@@ -98,7 +99,6 @@ By default, the server only listens on localhost (127.0.0.1), which means it's o
 
 ```bash
 # Using the start script
-chmod +x start.sh
 ./start.sh --all-interfaces
 
 # Or directly with npm
@@ -113,7 +113,6 @@ You can combine multiple options:
 
 ```bash
 # Using the start script
-chmod +x start.sh
 ./start.sh --all-interfaces -p 8080
 
 # Or directly with npm
@@ -271,7 +270,7 @@ Quizzes are stored in the following JSON format:
 
 ### Image Support for Questions
 
-Questions can include images to enhance visual learning:
+Questions can now include images to enhance visual learning:
 - Upload images up to 5MB in size
 - Images are automatically resized to maintain reasonable dimensions
 - Images are stored as base64-encoded strings within the quiz JSON

@@ -1,0 +1,217 @@
+{
+  "id": "1617293847",
+  "title": "Web Development Basics",
+  "description": "Test your knowledge of basic web development concepts",
+  "targetType": "percentage",
+  "targetValue": 70,
+  "questions": [
+    {
+      "text": "What does HTML stand for?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Hyper Text Markup Language",
+          "reference": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "text": "Hyper Transfer Markup Language",
+          "reference": ""
+        },
+        {
+          "text": "Hyper Text Makeup Language",
+          "reference": ""
+        },
+        {
+          "text": "High Tech Markup Language",
+          "reference": ""
+        }
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "text": "Which of the following is used for styling web pages?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "HTML",
+          "reference": ""
+        },
+        {
+          "text": "CSS",
+          "reference": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "text": "JavaScript",
+          "reference": ""
+        },
+        {
+          "text": "PHP",
+          "reference": ""
+        }
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "text": "JavaScript is a server-side programming language.",
+      "type": "true-false",
+      "answers": [
+        {
+          "text": "True",
+          "reference": ""
+        },
+        {
+          "text": "False",
+          "reference": "JavaScript was originally designed as a client-side language, though it can now be used on the server with Node.js."
+        }
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "text": "Which symbol is used to select elements by ID in CSS?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": ".",
+          "reference": ""
+        },
+        {
+          "text": "#",
+          "reference": "https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors"
+        },
+        {
+          "text": "@",
+          "reference": ""
+        },
+        {
+          "text": "&",
+          "reference": ""
+        }
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "text": "Which HTTP method is typically used to submit form data?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "GET",
+          "reference": ""
+        },
+        {
+          "text": "POST",
+          "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST"
+        },
+        {
+          "text": "PUT",
+          "reference": ""
+        },
+        {
+          "text": "DELETE",
+          "reference": ""
+        }
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "text": "The box model in CSS consists of margin, border, padding, and content.",
+      "type": "true-false",
+      "answers": [
+        {
+          "text": "True",
+          "reference": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"
+        },
+        {
+          "text": "False",
+          "reference": ""
+        }
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "text": "Which of the following is NOT a JavaScript framework or library?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "React",
+          "reference": ""
+        },
+        {
+          "text": "Angular",
+          "reference": ""
+        },
+        {
+          "text": "Vue",
+          "reference": ""
+        },
+        {
+          "text": "Sass",
+          "reference": "Sass is a CSS preprocessor, not a JavaScript framework or library."
+        }
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "text": "What is the correct way to include an external JavaScript file?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "<script src=\"script.js\"></script>",
+          "reference": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"
+        },
+        {
+          "text": "<script href=\"script.js\"></script>",
+          "reference": ""
+        },
+        {
+          "text": "<script link=\"script.js\"></script>",
+          "reference": ""
+        },
+        {
+          "text": "<script file=\"script.js\"></script>",
+          "reference": ""
+        }
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "text": "Which CSS property is used to change the text color?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "text-color",
+          "reference": ""
+        },
+        {
+          "text": "font-color",
+          "reference": ""
+        },
+        {
+          "text": "color",
+          "reference": "https://developer.mozilla.org/en-US/docs/Web/CSS/color"
+        },
+        {
+          "text": "text-style",
+          "reference": ""
+        }
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "text": "localStorage data persists even after the browser is closed.",
+      "type": "true-false",
+      "answers": [
+        {
+          "text": "True",
+          "reference": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
+        },
+        {
+          "text": "False",
+          "reference": ""
+        }
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "createdAt": "2023-04-01T12:00:00.000Z",
+  "updatedAt": "2023-04-01T12:00:00.000Z"
+}
