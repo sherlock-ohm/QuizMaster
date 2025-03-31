@@ -298,3 +298,7 @@ When importing quizzes, the application automatically assigns a new unique ID to
 ## License
 
 MIT
+
+## Note:
+
+This application has not been pentested. It is intended to be used in an isolated environment. Do not expose to the internet!
