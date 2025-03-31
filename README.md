@@ -266,6 +266,10 @@ Quizzes are stored in the following JSON format:
 }
 ```
 
+## Workflow
+
+Add your example json to Ai and tell it to generate you a quiz for any topic in the format you've given it. It works! (Double check the answers)
+
 ## Features in Detail
 
 ### Image Support for Questions
@@ -302,3 +306,4 @@ MIT
 ## Note:
 
 This application has not been pentested. It is intended to be used in an isolated environment. Do not expose to the internet!
+Do not rely on the ansewrs in the practice quiz. They are just there as an example.
