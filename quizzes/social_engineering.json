@@ -1,0 +1,261 @@
+{
+  "id": "1743350001010",
+  "title": "Social Engineering and Security Awareness",
+  "description": "Test your knowledge of social engineering techniques, attacks, and security awareness best practices. This quiz covers phishing, pretexting, baiting, and methods for defending against social engineering attacks.",
+  "targetType": "percentage",
+  "targetValue": 70,
+  "questions": [
+    {
+      "text": "What is social engineering?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "The process of designing social media platforms",
+          "reference": ""
+        },
+        {
+          "text": "The process of manipulating people into performing actions or divulging confidential information",
+          "reference": ""
+        },
+        {
+          "text": "The process of developing social skills",
+          "reference": ""
+        },
+        {
+          "text": "The process of building social networks",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is phishing?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A type of social engineering attack that uses email, SMS, or other communication channels to trick users into revealing sensitive information or installing malware",
+          "reference": ""
+        },
+        {
+          "text": "A type of fishing that uses electronic equipment",
+          "reference": ""
+        },
+        {
+          "text": "A type of network security protocol",
+          "reference": ""
+        },
+        {
+          "text": "A type of encryption algorithm",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is spear phishing?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A type of phishing that targets a specific individual or organization",
+          "reference": ""
+        },
+        {
+          "text": "A type of phishing that targets multiple individuals or organizations",
+          "reference": ""
+        },
+        {
+          "text": "A type of phishing that uses spears as weapons",
+          "reference": ""
+        },
+        {
+          "text": "A type of phishing that targets only government organizations",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is pretexting?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A type of social engineering attack that involves creating a fabricated scenario to obtain information or access",
+          "reference": ""
+        },
+        {
+          "text": "A type of encryption algorithm",
+          "reference": ""
+        },
+        {
+          "text": "A type of network security protocol",
+          "reference": ""
+        },
+        {
+          "text": "A type of authentication mechanism",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is baiting?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A type of social engineering attack that involves offering something enticing to the victim, such as a free download or USB drive, that contains malware",
+          "reference": ""
+        },
+        {
+          "text": "A type of encryption algorithm",
+          "reference": ""
+        },
+        {
+          "text": "A type of network security protocol",
+          "reference": ""
+        },
+        {
+          "text": "A type of authentication mechanism",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is tailgating in the context of physical security?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Following too closely behind another vehicle",
+          "reference": ""
+        },
+        {
+          "text": "A social engineering technique where an unauthorized person follows an authorized person into a secured area",
+          "reference": ""
+        },
+        {
+          "text": "A type of network security protocol",
+          "reference": ""
+        },
+        {
+          "text": "A type of authentication mechanism",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of security awareness training?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To teach employees how to develop security software",
+          "reference": ""
+        },
+        {
+          "text": "To teach employees how to hack into systems",
+          "reference": ""
+        },
+        {
+          "text": "To educate employees about security threats and best practices to protect against them",
+          "reference": ""
+        },
+        {
+          "text": "To teach employees how to encrypt data",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is a security awareness program?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A program for developing security software",
+          "reference": ""
+        },
+        {
+          "text": "A comprehensive approach to educating employees about security threats and best practices",
+          "reference": ""
+        },
+        {
+          "text": "A program for hacking into systems",
+          "reference": ""
+        },
+        {
+          "text": "A program for encrypting data",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the best defense against social engineering attacks?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Installing antivirus software",
+          "reference": ""
+        },
+        {
+          "text": "Using strong passwords",
+          "reference": ""
+        },
+        {
+          "text": "Education and awareness",
+          "reference": ""
+        },
+        {
+          "text": "Encrypting all data",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What should you do if you suspect you've received a phishing email?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Reply to the sender asking for more information",
+          "reference": ""
+        },
+        {
+          "text": "Click on any links to verify if they are legitimate",
+          "reference": ""
+        },
+        {
+          "text": "Forward the email to your friends to warn them",
+          "reference": ""
+        },
+        {
+          "text": "Do not click on any links or attachments, and report the email to your IT department or security team",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [3],
+      "correctAnswer": 3,
+      "imageData": null
+    }
+  ],
+  "createdAt": "2025-03-31T01:37:30.000Z",
+  "updatedAt": "2025-03-31T01:37:30.000Z"
+}

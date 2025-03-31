@@ -1,0 +1,261 @@
+{
+  "id": "1743350001003",
+  "title": "Cryptography Basics",
+  "description": "Test your knowledge of cryptographic concepts, algorithms, and protocols. This quiz covers encryption, hashing, digital signatures, and cryptographic attacks.",
+  "targetType": "percentage",
+  "targetValue": 70,
+  "questions": [
+    {
+      "text": "What is the difference between symmetric and asymmetric encryption?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Symmetric encryption uses one key for both encryption and decryption, while asymmetric encryption uses different keys for encryption and decryption",
+          "reference": ""
+        },
+        {
+          "text": "Symmetric encryption is always more secure than asymmetric encryption",
+          "reference": ""
+        },
+        {
+          "text": "Asymmetric encryption is always faster than symmetric encryption",
+          "reference": ""
+        },
+        {
+          "text": "There is no difference; they are two terms for the same thing",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "Which of the following is a symmetric encryption algorithm?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "RSA",
+          "reference": ""
+        },
+        {
+          "text": "AES",
+          "reference": ""
+        },
+        {
+          "text": "ECC",
+          "reference": ""
+        },
+        {
+          "text": "Diffie-Hellman",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "Which of the following is an asymmetric encryption algorithm?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "AES",
+          "reference": ""
+        },
+        {
+          "text": "DES",
+          "reference": ""
+        },
+        {
+          "text": "3DES",
+          "reference": ""
+        },
+        {
+          "text": "RSA",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [3],
+      "correctAnswer": 3,
+      "imageData": null
+    },
+    {
+      "text": "What is a hash function?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A function that converts input data of any size into a fixed-size output",
+          "reference": ""
+        },
+        {
+          "text": "A function that encrypts data",
+          "reference": ""
+        },
+        {
+          "text": "A function that decrypts data",
+          "reference": ""
+        },
+        {
+          "text": "A function that compresses data for storage",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "Which of the following is a cryptographic hash function?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "AES",
+          "reference": ""
+        },
+        {
+          "text": "RSA",
+          "reference": ""
+        },
+        {
+          "text": "SHA-256",
+          "reference": ""
+        },
+        {
+          "text": "Diffie-Hellman",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is a digital signature?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A handwritten signature that has been scanned",
+          "reference": ""
+        },
+        {
+          "text": "A cryptographic mechanism that provides authentication, non-repudiation, and integrity",
+          "reference": ""
+        },
+        {
+          "text": "A type of encryption algorithm",
+          "reference": ""
+        },
+        {
+          "text": "A password that uses special characters",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of a Public Key Infrastructure (PKI)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To provide free encryption services",
+          "reference": ""
+        },
+        {
+          "text": "To manage public keys and digital certificates",
+          "reference": ""
+        },
+        {
+          "text": "To break encryption for law enforcement",
+          "reference": ""
+        },
+        {
+          "text": "To speed up encryption processes",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is a certificate authority (CA)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A government agency that regulates encryption",
+          "reference": ""
+        },
+        {
+          "text": "A trusted entity that issues digital certificates",
+          "reference": ""
+        },
+        {
+          "text": "A software program that encrypts data",
+          "reference": ""
+        },
+        {
+          "text": "A hardware device that stores encryption keys",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is a brute force attack in cryptography?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "An attack that uses social engineering to obtain encryption keys",
+          "reference": ""
+        },
+        {
+          "text": "An attack that exploits vulnerabilities in encryption algorithms",
+          "reference": ""
+        },
+        {
+          "text": "An attack that tries all possible keys or passwords until the correct one is found",
+          "reference": ""
+        },
+        {
+          "text": "An attack that physically damages encryption devices",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is forward secrecy in cryptography?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A property that ensures past communications cannot be decrypted if the long-term key is compromised",
+          "reference": ""
+        },
+        {
+          "text": "A technique to predict future encryption keys",
+          "reference": ""
+        },
+        {
+          "text": "A method to encrypt data for future use",
+          "reference": ""
+        },
+        {
+          "text": "A way to ensure encryption keys are never lost",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    }
+  ],
+  "createdAt": "2025-03-31T01:34:00.000Z",
+  "updatedAt": "2025-03-31T01:34:00.000Z"
+}

@@ -1,0 +1,261 @@
+{
+  "id": "1743350001005",
+  "title": "Ethical Hacking and Penetration Testing",
+  "description": "Test your knowledge of ethical hacking methodologies, tools, and techniques. This quiz covers reconnaissance, scanning, exploitation, post-exploitation, and reporting.",
+  "targetType": "percentage",
+  "targetValue": 70,
+  "questions": [
+    {
+      "text": "What is the difference between ethical hacking and malicious hacking?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Ethical hacking is legal and performed with permission, while malicious hacking is illegal and performed without permission",
+          "reference": ""
+        },
+        {
+          "text": "Ethical hacking uses different tools than malicious hacking",
+          "reference": ""
+        },
+        {
+          "text": "Ethical hacking is always performed remotely, while malicious hacking is performed locally",
+          "reference": ""
+        },
+        {
+          "text": "There is no difference; they are the same thing",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is a penetration test?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A test to measure network speed",
+          "reference": ""
+        },
+        {
+          "text": "A simulated cyber attack against a system to check for exploitable vulnerabilities",
+          "reference": ""
+        },
+        {
+          "text": "A test to measure system performance",
+          "reference": ""
+        },
+        {
+          "text": "A test to verify system compatibility",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the first phase of a penetration test?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Exploitation",
+          "reference": ""
+        },
+        {
+          "text": "Scanning",
+          "reference": ""
+        },
+        {
+          "text": "Reconnaissance",
+          "reference": ""
+        },
+        {
+          "text": "Reporting",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is passive reconnaissance?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Gathering information about a target without directly interacting with it",
+          "reference": ""
+        },
+        {
+          "text": "Scanning a target's network for open ports",
+          "reference": ""
+        },
+        {
+          "text": "Exploiting vulnerabilities in a target's systems",
+          "reference": ""
+        },
+        {
+          "text": "Reporting findings to a target",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is active reconnaissance?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Gathering information about a target without directly interacting with it",
+          "reference": ""
+        },
+        {
+          "text": "Gathering information about a target by directly interacting with it",
+          "reference": ""
+        },
+        {
+          "text": "Exploiting vulnerabilities in a target's systems",
+          "reference": ""
+        },
+        {
+          "text": "Reporting findings to a target",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of port scanning?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To identify open ports and services running on a target system",
+          "reference": ""
+        },
+        {
+          "text": "To exploit vulnerabilities in a target system",
+          "reference": ""
+        },
+        {
+          "text": "To report findings to a target",
+          "reference": ""
+        },
+        {
+          "text": "To gather information about a target without directly interacting with it",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is vulnerability scanning?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "The process of identifying security vulnerabilities in systems, networks, or applications",
+          "reference": ""
+        },
+        {
+          "text": "The process of exploiting vulnerabilities in a target system",
+          "reference": ""
+        },
+        {
+          "text": "The process of reporting findings to a target",
+          "reference": ""
+        },
+        {
+          "text": "The process of gathering information about a target without directly interacting with it",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of the exploitation phase in a penetration test?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To identify open ports and services running on a target system",
+          "reference": ""
+        },
+        {
+          "text": "To identify security vulnerabilities in a target system",
+          "reference": ""
+        },
+        {
+          "text": "To attempt to exploit identified vulnerabilities to gain access to a target system",
+          "reference": ""
+        },
+        {
+          "text": "To report findings to a target",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is post-exploitation in a penetration test?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "The process of identifying open ports and services running on a target system",
+          "reference": ""
+        },
+        {
+          "text": "The process of identifying security vulnerabilities in a target system",
+          "reference": ""
+        },
+        {
+          "text": "The process of attempting to exploit identified vulnerabilities to gain access to a target system",
+          "reference": ""
+        },
+        {
+          "text": "The process of maintaining access, escalating privileges, and further exploring a compromised system",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [3],
+      "correctAnswer": 3,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of a penetration testing report?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To document the findings, methodologies, and recommendations from a penetration test",
+          "reference": ""
+        },
+        {
+          "text": "To identify open ports and services running on a target system",
+          "reference": ""
+        },
+        {
+          "text": "To identify security vulnerabilities in a target system",
+          "reference": ""
+        },
+        {
+          "text": "To attempt to exploit identified vulnerabilities to gain access to a target system",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    }
+  ],
+  "createdAt": "2025-03-31T01:35:00.000Z",
+  "updatedAt": "2025-03-31T01:35:00.000Z"
+}

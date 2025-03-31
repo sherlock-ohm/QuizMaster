@@ -1,0 +1,261 @@
+{
+  "id": "1743350001007",
+  "title": "Mobile Security",
+  "description": "Test your knowledge of mobile security concepts, threats, and best practices. This quiz covers mobile operating systems, application security, device management, and common mobile threats.",
+  "targetType": "percentage",
+  "targetValue": 70,
+  "questions": [
+    {
+      "text": "What is mobile device management (MDM)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A software tool for developing mobile applications",
+          "reference": ""
+        },
+        {
+          "text": "A software solution that allows IT administrators to control, secure, and enforce policies on smartphones, tablets, and other endpoints",
+          "reference": ""
+        },
+        {
+          "text": "A mobile operating system",
+          "reference": ""
+        },
+        {
+          "text": "A type of mobile malware",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of application sandboxing in mobile security?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To isolate applications from each other and restrict their access to system resources",
+          "reference": ""
+        },
+        {
+          "text": "To improve application performance",
+          "reference": ""
+        },
+        {
+          "text": "To allow applications to share data freely",
+          "reference": ""
+        },
+        {
+          "text": "To prevent applications from being installed",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is jailbreaking in the context of iOS devices?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Installing the latest iOS update",
+          "reference": ""
+        },
+        {
+          "text": "Backing up an iOS device",
+          "reference": ""
+        },
+        {
+          "text": "The process of removing software restrictions imposed by Apple, allowing the installation of software not authorized by Apple",
+          "reference": ""
+        },
+        {
+          "text": "Resetting an iOS device to factory settings",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is rooting in the context of Android devices?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Installing the latest Android update",
+          "reference": ""
+        },
+        {
+          "text": "Backing up an Android device",
+          "reference": ""
+        },
+        {
+          "text": "The process of obtaining privileged control (root access) over an Android device",
+          "reference": ""
+        },
+        {
+          "text": "Resetting an Android device to factory settings",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What security risks are associated with jailbreaking or rooting a mobile device?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Increased battery life",
+          "reference": ""
+        },
+        {
+          "text": "Improved performance",
+          "reference": ""
+        },
+        {
+          "text": "Bypassing security controls, potentially exposing the device to malware and other security threats",
+          "reference": ""
+        },
+        {
+          "text": "No security risks are associated with jailbreaking or rooting",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is mobile application vetting?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "The process of developing mobile applications",
+          "reference": ""
+        },
+        {
+          "text": "The process of evaluating mobile applications for security vulnerabilities and compliance with security policies",
+          "reference": ""
+        },
+        {
+          "text": "The process of installing mobile applications",
+          "reference": ""
+        },
+        {
+          "text": "The process of updating mobile applications",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of mobile application code signing?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To improve application performance",
+          "reference": ""
+        },
+        {
+          "text": "To verify the identity of the application developer and ensure the application has not been tampered with",
+          "reference": ""
+        },
+        {
+          "text": "To encrypt application data",
+          "reference": ""
+        },
+        {
+          "text": "To compress application code",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is a mobile VPN?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A virtual private network designed specifically for mobile devices",
+          "reference": ""
+        },
+        {
+          "text": "A mobile operating system",
+          "reference": ""
+        },
+        {
+          "text": "A type of mobile malware",
+          "reference": ""
+        },
+        {
+          "text": "A mobile device management solution",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of mobile device encryption?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To improve device performance",
+          "reference": ""
+        },
+        {
+          "text": "To protect data stored on a mobile device from unauthorized access",
+          "reference": ""
+        },
+        {
+          "text": "To compress data stored on a mobile device",
+          "reference": ""
+        },
+        {
+          "text": "To backup data stored on a mobile device",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is a mobile security best practice for BYOD (Bring Your Own Device) environments?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Allow all personal devices to access corporate resources without restrictions",
+          "reference": ""
+        },
+        {
+          "text": "Prohibit all personal devices from accessing corporate resources",
+          "reference": ""
+        },
+        {
+          "text": "Implement a mobile device management (MDM) solution to enforce security policies on personal devices",
+          "reference": ""
+        },
+        {
+          "text": "Require employees to use only corporate devices",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    }
+  ],
+  "createdAt": "2025-03-31T01:36:00.000Z",
+  "updatedAt": "2025-03-31T01:36:00.000Z"
+}

@@ -1,0 +1,261 @@
+{
+  "id": "1743350001002",
+  "title": "Web Application Security",
+  "description": "Test your knowledge of web application security concepts, vulnerabilities, and best practices. This quiz covers common web attacks, secure coding practices, and defense mechanisms.",
+  "targetType": "percentage",
+  "targetValue": 70,
+  "questions": [
+    {
+      "text": "What is Cross-Site Scripting (XSS)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users",
+          "reference": ""
+        },
+        {
+          "text": "A technique to speed up website loading",
+          "reference": ""
+        },
+        {
+          "text": "A method to secure communication between websites",
+          "reference": ""
+        },
+        {
+          "text": "A type of encryption for web traffic",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is SQL Injection?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A technique to optimize database queries",
+          "reference": ""
+        },
+        {
+          "text": "A vulnerability that allows attackers to inject malicious SQL code into database queries",
+          "reference": ""
+        },
+        {
+          "text": "A method to secure database connections",
+          "reference": ""
+        },
+        {
+          "text": "A type of database management system",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is CSRF (Cross-Site Request Forgery)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A technique to optimize website performance",
+          "reference": ""
+        },
+        {
+          "text": "A method to secure communication between websites",
+          "reference": ""
+        },
+        {
+          "text": "A vulnerability that allows attackers to trick users into performing unwanted actions on a website they're authenticated to",
+          "reference": ""
+        },
+        {
+          "text": "A type of encryption for web traffic",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of Content Security Policy (CSP)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To optimize website loading speed",
+          "reference": ""
+        },
+        {
+          "text": "To restrict which resources can be loaded by a web page, helping prevent XSS and data injection attacks",
+          "reference": ""
+        },
+        {
+          "text": "To encrypt all web traffic",
+          "reference": ""
+        },
+        {
+          "text": "To manage user authentication",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the Same-Origin Policy?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A security mechanism that restricts how a document or script from one origin can interact with resources from another origin",
+          "reference": ""
+        },
+        {
+          "text": "A policy that requires all websites to use the same programming language",
+          "reference": ""
+        },
+        {
+          "text": "A technique to optimize website performance",
+          "reference": ""
+        },
+        {
+          "text": "A method to secure database connections",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is HTTPS?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A programming language for web development",
+          "reference": ""
+        },
+        {
+          "text": "A type of web server",
+          "reference": ""
+        },
+        {
+          "text": "HTTP with an added security layer using SSL/TLS",
+          "reference": ""
+        },
+        {
+          "text": "A database management system",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of OWASP (Open Web Application Security Project)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To develop web applications",
+          "reference": ""
+        },
+        {
+          "text": "To provide free and open resources for improving web application security",
+          "reference": ""
+        },
+        {
+          "text": "To sell security products",
+          "reference": ""
+        },
+        {
+          "text": "To host websites securely",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is input validation?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A technique to optimize website performance",
+          "reference": ""
+        },
+        {
+          "text": "A process of ensuring that user input meets certain criteria before processing it",
+          "reference": ""
+        },
+        {
+          "text": "A method to encrypt user data",
+          "reference": ""
+        },
+        {
+          "text": "A type of authentication mechanism",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the principle of least privilege in web security?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Giving users the minimum level of access or permissions needed to perform their job functions",
+          "reference": ""
+        },
+        {
+          "text": "Restricting access to all users equally",
+          "reference": ""
+        },
+        {
+          "text": "Providing maximum access to administrators",
+          "reference": ""
+        },
+        {
+          "text": "Allowing all users to access all features",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is a Web Application Firewall (WAF)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A tool to develop web applications faster",
+          "reference": ""
+        },
+        {
+          "text": "A security solution that filters and monitors HTTP traffic between a web application and the Internet",
+          "reference": ""
+        },
+        {
+          "text": "A type of web server",
+          "reference": ""
+        },
+        {
+          "text": "A programming language for web development",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    }
+  ],
+  "createdAt": "2025-03-31T01:33:00.000Z",
+  "updatedAt": "2025-03-31T01:33:00.000Z"
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizmaster</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-graduation-cap"></i> Quizmaster</h1>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="home-view" class="view">
+            <div class="actions">
+                <button id="create-quiz-btn" class="btn primary"><i class="fas fa-plus"></i> Create New Quiz</button>
+                <button id="import-quiz-btn" class="btn secondary"><i class="fas fa-file-import"></i> Import Quiz</button>
+                <input type="file" id="import-file-input" accept=".json" style="display: none;">
+            </div>
+            
+            <div class="quiz-list-container">
+                <h2>Your Quizzes</h2>
+                <div id="quiz-list" class="quiz-list">
+                    <!-- Quiz items will be dynamically added here -->
+                    <div class="empty-state">
+                        <i class="fas fa-clipboard-list fa-3x"></i>
+                        <p>No quizzes found. Create a new quiz or import one to get started!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="create-view" class="view" style="display: none;">
+            <div class="view-header">
+                <h2>Create Quiz</h2>
+                <button id="back-to-home" class="btn text"><i class="fas fa-arrow-left"></i> Back</button>
+            </div>
+            
+            <form id="quiz-form">
+                <div class="form-group">
+                    <label for="quiz-title">Quiz Title</label>
+                    <input type="text" id="quiz-title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="quiz-description">Description</label>
+                    <textarea id="quiz-description" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>Target Type</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="target-type" value="number" checked>
+                            Number of Correct Questions
+                        </label>
+                        <label>
+                            <input type="radio" name="target-type" value="percentage">
+                            Percentage
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group" id="target-number-group">
+                    <label for="target-number">Target (Number of Questions)</label>
+                    <input type="number" id="target-number" min="1" value="1">
+                </div>
+                
+                <div class="form-group" id="target-percentage-group" style="display: none;">
+                    <label for="target-percentage">Target (Percentage)</label>
+                    <input type="number" id="target-percentage" min="1" max="100" value="70">
+                </div>
+                
+                <h3>Questions</h3>
+                <div id="questions-container">
+                    <!-- Questions will be dynamically added here -->
+                </div>
+                
+                <button type="button" id="add-question-btn" class="btn primary"><i class="fas fa-plus"></i> Add Question</button>
+                
+                <div class="form-actions">
+                    <button type="submit" class="btn primary"><i class="fas fa-save"></i> Save Quiz</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="preview-view" class="view" style="display: none;">
+            <div class="view-header">
+                <h2>Quiz Preview</h2>
+                <button id="back-to-edit" class="btn text"><i class="fas fa-arrow-left"></i> Back to Edit</button>
+            </div>
+            
+            <div id="preview-content">
+                <!-- Preview content will be dynamically added here -->
+            </div>
+        </div>
+
+        <div id="take-quiz-view" class="view" style="display: none;">
+            <div class="view-header">
+                <h2 id="quiz-title-header"></h2>
+                <button id="exit-quiz" class="btn text"><i class="fas fa-times"></i> Exit</button>
+            </div>
+            
+            <div id="quiz-description-display" class="quiz-description"></div>
+            
+            <div id="quiz-progress">
+                <div class="progress-text">Question <span id="current-question">1</span> of <span id="total-questions">10</span></div>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+            
+            <div id="question-container">
+                <!-- Question content will be dynamically added here -->
+            </div>
+            
+            <div class="quiz-navigation">
+                <button id="prev-question" class="btn secondary" disabled><i class="fas fa-arrow-left"></i> Previous</button>
+                <button id="next-question" class="btn primary">Next <i class="fas fa-arrow-right"></i></button>
+                <button id="submit-quiz" class="btn primary" style="display: none;">Submit Quiz</button>
+            </div>
+        </div>
+
+        <div id="results-view" class="view" style="display: none;">
+            <div class="view-header">
+                <h2>Quiz Results</h2>
+                <button id="back-to-home-from-results" class="btn text"><i class="fas fa-home"></i> Back to Home</button>
+            </div>
+            
+            <div class="results-summary">
+                <div class="score-circle">
+                    <div class="score-text">
+                        <span id="score-percentage">0%</span>
+                        <div id="score-fraction">0/0</div>
+                    </div>
+                </div>
+                <div id="pass-fail-message"></div>
+            </div>
+            
+            <div id="results-details">
+                <!-- Results details will be dynamically added here -->
+            </div>
+            
+            <div class="results-actions">
+                <button id="retake-quiz" class="btn primary"><i class="fas fa-redo"></i> Retake Quiz</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>
+                <span class="footer-label"></span>
+                <a href="https://github.com/sherlock-ohm" target="_blank">
+                    <i class="fab fa-github"></i> sherlock-ohm
+                </a>
+                <br>
+                <span class="footer-label"></span>
+                <a href="https://linkedin.com/in/sherlockohm" target="_blank">
+                    <i class="fab fa-linkedin"></i> sherlockohm
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/utils.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+{
+  "id": "1743350001008",
+  "title": "Security Governance and Compliance",
+  "description": "Test your knowledge of security governance, compliance frameworks, regulations, and standards. This quiz covers risk management, security policies, and common compliance requirements.",
+  "targetType": "percentage",
+  "targetValue": 70,
+  "questions": [
+    {
+      "text": "What is security governance?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "The process of developing security software",
+          "reference": ""
+        },
+        {
+          "text": "The framework for managing security risks and ensuring that security activities are performed in alignment with business objectives",
+          "reference": ""
+        },
+        {
+          "text": "The process of testing security controls",
+          "reference": ""
+        },
+        {
+          "text": "The process of responding to security incidents",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of a security policy?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To define the rules and guidelines for protecting an organization's information assets",
+          "reference": ""
+        },
+        {
+          "text": "To develop security software",
+          "reference": ""
+        },
+        {
+          "text": "To test security controls",
+          "reference": ""
+        },
+        {
+          "text": "To respond to security incidents",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is risk management in information security?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "The process of developing security software",
+          "reference": ""
+        },
+        {
+          "text": "The process of testing security controls",
+          "reference": ""
+        },
+        {
+          "text": "The process of identifying, assessing, and controlling threats to an organization's information assets",
+          "reference": ""
+        },
+        {
+          "text": "The process of responding to security incidents",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of a risk assessment?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To identify and evaluate potential risks to an organization's information assets",
+          "reference": ""
+        },
+        {
+          "text": "To develop security software",
+          "reference": ""
+        },
+        {
+          "text": "To test security controls",
+          "reference": ""
+        },
+        {
+          "text": "To respond to security incidents",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of a security audit?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To develop security software",
+          "reference": ""
+        },
+        {
+          "text": "To systematically evaluate an organization's security controls, policies, and procedures against a set of criteria",
+          "reference": ""
+        },
+        {
+          "text": "To respond to security incidents",
+          "reference": ""
+        },
+        {
+          "text": "To identify and evaluate potential risks to an organization's information assets",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of a security framework?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To develop security software",
+          "reference": ""
+        },
+        {
+          "text": "To test security controls",
+          "reference": ""
+        },
+        {
+          "text": "To respond to security incidents",
+          "reference": ""
+        },
+        {
+          "text": "To provide a structured approach for implementing and managing security controls",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [3],
+      "correctAnswer": 3,
+      "imageData": null
+    },
+    {
+      "text": "What is the NIST Cybersecurity Framework?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A security software tool",
+          "reference": ""
+        },
+        {
+          "text": "A security testing methodology",
+          "reference": ""
+        },
+        {
+          "text": "A framework that provides a policy framework of computer security guidance for how organizations can assess and improve their ability to prevent, detect, and respond to cyber attacks",
+          "reference": ""
+        },
+        {
+          "text": "A security incident response plan",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is ISO/IEC 27001?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A security software tool",
+          "reference": ""
+        },
+        {
+          "text": "An international standard for information security management systems (ISMS)",
+          "reference": ""
+        },
+        {
+          "text": "A security testing methodology",
+          "reference": ""
+        },
+        {
+          "text": "A security incident response plan",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of the General Data Protection Regulation (GDPR)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To regulate the collection and processing of personal data in the European Union",
+          "reference": ""
+        },
+        {
+          "text": "To regulate the development of security software",
+          "reference": ""
+        },
+        {
+          "text": "To regulate security testing methodologies",
+          "reference": ""
+        },
+        {
+          "text": "To regulate security incident response plans",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of the Health Insurance Portability and Accountability Act (HIPAA)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To regulate the collection and processing of personal data in the European Union",
+          "reference": ""
+        },
+        {
+          "text": "To regulate the development of security software",
+          "reference": ""
+        },
+        {
+          "text": "To establish national standards for protecting sensitive patient health information in the United States",
+          "reference": ""
+        },
+        {
+          "text": "To regulate security incident response plans",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    }
+  ],
+  "createdAt": "2025-03-31T01:36:30.000Z",
+  "updatedAt": "2025-03-31T01:36:30.000Z"
+}

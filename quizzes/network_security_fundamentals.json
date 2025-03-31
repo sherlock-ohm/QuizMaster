@@ -1,0 +1,261 @@
+{
+  "id": "1743350001001",
+  "title": "Network Security Fundamentals",
+  "description": "Test your knowledge of network security concepts, protocols, and best practices. This quiz covers firewalls, VPNs, network architecture, common attacks, and defense mechanisms.",
+  "targetType": "percentage",
+  "targetValue": 70,
+  "questions": [
+    {
+      "text": "Which of the following is NOT a type of firewall?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Packet filtering firewall",
+          "reference": ""
+        },
+        {
+          "text": "Stateful inspection firewall",
+          "reference": ""
+        },
+        {
+          "text": "Proxy firewall",
+          "reference": ""
+        },
+        {
+          "text": "Quantum encryption firewall",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [3],
+      "correctAnswer": 3,
+      "imageData": null
+    },
+    {
+      "text": "What is the primary purpose of a VPN (Virtual Private Network)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To increase internet speed",
+          "reference": ""
+        },
+        {
+          "text": "To create a secure, encrypted connection over a less secure network",
+          "reference": ""
+        },
+        {
+          "text": "To block all malware automatically",
+          "reference": ""
+        },
+        {
+          "text": "To provide free internet access",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "Which protocol is used to securely access a remote computer?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "FTP (File Transfer Protocol)",
+          "reference": ""
+        },
+        {
+          "text": "HTTP (Hypertext Transfer Protocol)",
+          "reference": ""
+        },
+        {
+          "text": "SSH (Secure Shell)",
+          "reference": ""
+        },
+        {
+          "text": "SMTP (Simple Mail Transfer Protocol)",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is a DMZ (Demilitarized Zone) in network security?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A physical area where electronic devices are not allowed",
+          "reference": ""
+        },
+        {
+          "text": "A subnet that contains and exposes an organization's external-facing services to an untrusted network",
+          "reference": ""
+        },
+        {
+          "text": "A type of encryption algorithm",
+          "reference": ""
+        },
+        {
+          "text": "A security policy that restricts internet access",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "Which of the following is an example of a network-based attack?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Phishing",
+          "reference": ""
+        },
+        {
+          "text": "Social engineering",
+          "reference": ""
+        },
+        {
+          "text": "Man-in-the-Middle (MitM)",
+          "reference": ""
+        },
+        {
+          "text": "Shoulder surfing",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What does NAT stand for in networking?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Network Address Translation",
+          "reference": ""
+        },
+        {
+          "text": "Network Authentication Token",
+          "reference": ""
+        },
+        {
+          "text": "New Access Technology",
+          "reference": ""
+        },
+        {
+          "text": "Node Address Tracking",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [0],
+      "correctAnswer": 0,
+      "imageData": null
+    },
+    {
+      "text": "Which of the following is NOT a common network security threat?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "DDoS (Distributed Denial of Service)",
+          "reference": ""
+        },
+        {
+          "text": "ARP spoofing",
+          "reference": ""
+        },
+        {
+          "text": "DNS poisoning",
+          "reference": ""
+        },
+        {
+          "text": "Quantum tunneling",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [3],
+      "correctAnswer": 3,
+      "imageData": null
+    },
+    {
+      "text": "What is the purpose of an IDS (Intrusion Detection System)?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "To block all incoming network traffic",
+          "reference": ""
+        },
+        {
+          "text": "To monitor network traffic for suspicious activity and alert administrators",
+          "reference": ""
+        },
+        {
+          "text": "To encrypt all network communications",
+          "reference": ""
+        },
+        {
+          "text": "To speed up network performance",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    },
+    {
+      "text": "Which protocol is used to automatically assign IP addresses to devices on a network?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "HTTP",
+          "reference": ""
+        },
+        {
+          "text": "FTP",
+          "reference": ""
+        },
+        {
+          "text": "DHCP",
+          "reference": ""
+        },
+        {
+          "text": "SMTP",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [2],
+      "correctAnswer": 2,
+      "imageData": null
+    },
+    {
+      "text": "What is a honeypot in network security?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "A type of malware that steals data",
+          "reference": ""
+        },
+        {
+          "text": "A security mechanism to detect and deflect unauthorized access attempts",
+          "reference": ""
+        },
+        {
+          "text": "A network protocol for secure communications",
+          "reference": ""
+        },
+        {
+          "text": "A hardware device that blocks malicious traffic",
+          "reference": ""
+        }
+      ],
+      "correctAnswers": [1],
+      "correctAnswer": 1,
+      "imageData": null
+    }
+  ],
+  "createdAt": "2025-03-31T01:30:00.000Z",
+  "updatedAt": "2025-03-31T01:30:00.000Z"
+}
